@@ -4,6 +4,7 @@ import { FiLogIn } from 'react-icons/fi';
 import './styles.css';
 
 import logo from '../../assets/logo.svg';
+import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
   return (
@@ -19,12 +20,12 @@ const Home: React.FC = () => {
             Ajudamos pessoas a encontrarem pontos de recolha de forma eficiente.
           </p>
 
-          <a href="/registo">
+          <Link to="/create-point">
             <span>
               <FiLogIn />
             </span>
             <strong>Registe um ponto de recolha</strong>
-          </a>
+          </Link>
         </main>
       </div>
     </div>
