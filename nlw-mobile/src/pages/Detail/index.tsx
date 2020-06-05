@@ -48,6 +48,13 @@ const Detail = () => {
     navigation.goBack();
   }
 
+  function handleComposeMail() {
+    MailComposer.composeAsync({
+      subject: 'Interesse na recolha de resíduos',
+      recipients: [data.point.email],
+    });
+  }
+
   if (!data.point) {
     return null;
   }
@@ -86,7 +93,7 @@ const Detail = () => {
           <Text style={styles.buttonText}>Whatsapp</Text>
         </RectButton>
 
-        <RectButton style={styles.button} onPress={() => {}}>
+        <RectButton style={styles.button} onPress={handleComposeMail}>
           <Icon name="mail" size={20} color="#FFF" />
           <Text style={styles.buttonText}>Email</Text>
         </RectButton>
@@ -148,7 +155,6 @@ const styles = StyleSheet.create({
     borderTopWidth: StyleSheet.hairlineWidth,
     borderColor: '#999',
     paddingVertical: 20,
-    paddingBottom: 0,
     paddingHorizontal: 32,
     flexDirection: 'row',
     justifyContent: 'space-between',
