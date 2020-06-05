@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   Image,
   SafeAreaView,
+  Linking,
 } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import api from '../../services/api';
@@ -55,6 +56,12 @@ const Detail = () => {
     });
   }
 
+  function handleWhatsapp() {
+    Linking.openURL(
+      `whatsapp://send?phone=${data.point.whatsapp}&text=Tenho interesse sobre a recolha de resíduos.`,
+    );
+  }
+
   if (!data.point) {
     return null;
   }
@@ -88,7 +95,7 @@ const Detail = () => {
       </View>
 
       <View style={styles.footer}>
-        <RectButton style={styles.button} onPress={() => {}}>
+        <RectButton style={styles.button} onPress={handleWhatsapp}>
           <FontAwesome name="whatsapp" size={20} color="#FFF" />
           <Text style={styles.buttonText}>Whatsapp</Text>
         </RectButton>
