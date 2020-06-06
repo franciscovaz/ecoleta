@@ -114,7 +114,7 @@ export default Detail;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 32,
+    padding: 38,
     paddingTop: 20,
   },
 
