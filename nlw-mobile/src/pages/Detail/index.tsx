@@ -87,7 +87,7 @@ const Detail = () => {
         </Text>
 
         <View style={styles.address}>
-          <Text style={styles.addressTitle}>Endereço</Text>
+          <Text style={styles.addressTitle}>Endereço:</Text>
           <Text style={styles.addressContent}>
             {data.point.city}, {data.point.uf}
           </Text>
