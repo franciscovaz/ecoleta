@@ -11,6 +11,8 @@ import { LeafletMouseEvent } from 'leaflet';
 import axios from 'axios';
 import api from '../../services/api';
 
+import Dropzone from '../../components/Dropzone';
+
 interface Item {
   id: number;
   title: string;
@@ -170,6 +172,8 @@ const CreatePoint: React.FC = () => {
         <h1>
           Registo do <br /> ponto de recolha
         </h1>
+
+        <Dropzone />
 
         <fieldset>
           <legend>
