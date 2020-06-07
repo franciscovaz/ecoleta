@@ -64,6 +64,9 @@ This project was developed on Next Level Week event by Rocketseat 🚀
 ## 📸 Demo
 
 ![ECOleta Web GIF](imgs/web-nlw.gif)
+
+<br />
+
 ![ECOleta Mobile GIF](imgs/nlw-mobile.gif)
 
 <br />
