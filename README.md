@@ -63,13 +63,10 @@ This project was developed on Next Level Week event by Rocketseat 🚀
 
 ## 📸 Demo
 
-<!-- ![GoBarber GIF](imgs/gobarber.gif) -->
+![ECOleta Web GIF](imgs/web-nlw.gif)
+![ECOleta Mobile GIF](imgs/nlw-mobile.gif)
 
 <br />
-
-## 📸 Preview
-
-<!-- ![image](imgs/login.png) -->
 
 ## 💻 Getting started
 
