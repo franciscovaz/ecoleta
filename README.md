@@ -23,7 +23,7 @@
 This application provide a flow to create recyclable collection points and showing them on maps and allowing you to search for points.
 You can send a text message using whatsapp or email, to contact entities of collection points.
 
-This project was developed on Next Level Week event by Rocketseat 🚀
+This project was developed at Next Level Week event by Rocketseat 🚀
 
 ---
 
